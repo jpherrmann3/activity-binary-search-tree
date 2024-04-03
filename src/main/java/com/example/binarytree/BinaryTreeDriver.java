@@ -47,7 +47,7 @@ public class BinaryTreeDriver {
 
         System.out.println("\nLevel Order traversal of binary tree will be:");
         printTraversal(binaryTree.iteratorLevelOrder());
-        
+
         System.out.println();
         ((BinaryTree<Integer>) binaryTree).printTopDownTree();
 
